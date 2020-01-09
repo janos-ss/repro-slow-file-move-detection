@@ -1,12 +1,11 @@
-# Kentico 12 MVC Widgets
+# Reproducer
 
-This repository contains Widgets, which can be used and modified in your projects.
+In some cases the file move detection step of the CE can take a long time.
 
-# Widgets available in this repository
+1. Checkout `HEAD^` and run SonarQube analysis -> should complete in about a minute
+2. Checkout `master` and run SonarQube analysis -> would not complete for hours (if timeout is not enforced)
 
-- Link button
-- Youtube Video
-- Editable Image
-- Google Map
+## Links
 
- 
+Original repo: https://github.com/vasu-rbt/kentico12-mvc-widgets
+(The original repo is publicly available at the time of this writing)
